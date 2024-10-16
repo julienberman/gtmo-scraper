@@ -4,8 +4,8 @@ from src.processor import process_pdfs
 def main():
     # Scrape cases
     df = scrape_cases()
-    df.to_csv("data/mc_docket.csv", index=False)
-    print("Case information scraped and saved to data/mc_docket.csv")
+    df.to_csv("data/gtmo_docket.csv", index=False)
+    print("Case information scraped and saved to data/gtmo_docket.csv")
 
     # Process PDFs
     process_pdfs(df)

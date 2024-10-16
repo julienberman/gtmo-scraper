@@ -4,7 +4,7 @@ This project scrapes case information from the Military Commissions website and 
 ## Setup
 
 Clone this repository:
-https://github.com/julien/gtmo_docket.git
+https://github.com/julien/gtmo-scraper.git
 
 Create a virtual environment and activate it.
 

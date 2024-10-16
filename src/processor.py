@@ -75,7 +75,7 @@ def process_pdfs(df):
     links = [link for link in links if (link.endswith('.pdf') and "filenotavailable" not in link)]
 
     # Download PDFs
-    target_folder = 'data/gtmo_pdfs'
+    target_folder = 'data/pdfs'
     download_pdfs(links, target_folder)
 
     # Rename PDFs
